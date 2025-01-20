@@ -1,0 +1,111 @@
+#!/bin/bash
+
+PATH=${PATH}":/app/package/vmodbus/bin"
+cd /app/package/vmodbus/bin
+
+count=0
+val=0
+set=0
+flg=0
+
+while :
+do
+        val=$(($RANDOM % 100))
+        echo ${val} | modmaster -p 503 -t h write 1
+        val=$(($RANDOM % 100))
+        echo ${val} | modmaster -p 503 -t h write 2
+        val=$(($RANDOM % 100))
+        echo ${val} | modmaster -p 503 -t h write 3
+        val=$(($RANDOM % 100))
+        echo ${val} | modmaster -p 503 -t h write 4
+        val=$(($RANDOM % 100))
+        echo ${val} | modmaster -p 503 -t h write 5
+        val=$(($RANDOM % 100))
+        echo ${val} | modmaster -p 503 -t h write 6
+        val=$(($RANDOM % 100))
+        echo ${val} | modmaster -p 503 -t h write 7
+        val=$(($RANDOM % 100))
+        echo ${val} | modmaster -p 503 -t h write 8
+        val=$(($RANDOM % 100))
+        echo ${val} | modmaster -p 503 -t h write 9
+        val=$(($RANDOM % 100))
+        echo ${val} | modmaster -p 503 -t h write 10
+
+
+        set=`date "+%M%S"`
+        echo set=${set}
+        if [ $set -gt 0031 -a $set -lt 0040 ]; then
+                if [ $flg -ne 1 ]; then
+                        echo "0" | modmaster -p 503 -t h write 11
+                        echo "0" | modmaster -p 503 -t h write 12
+                        echo "0" | modmaster -p 503 -t h write 13
+                        echo "0" | modmaster -p 503 -t h write 14
+                        echo "0" | modmaster -p 503 -t h write 15
+                        echo "0" | modmaster -p 503 -t h write 16
+                        echo "0" | modmaster -p 503 -t h write 17
+                        echo "0" | modmaster -p 503 -t h write 18
+                        echo "0" | modmaster -p 503 -t h write 19
+                        echo "0" | modmaster -p 503 -t h write 20
+                        Holding_flg=1
+                        echo Holding_In, flg=${Holding_flg}
+                fi
+        else
+                val=$(($RANDOM % 100))
+                echo ${val} | modmaster -p 503 -t h write 11
+                val=$(($RANDOM % 100))
+                echo ${val} | modmaster -p 503 -t h write 12
+                val=$(($RANDOM % 100))
+                echo ${val} | modmaster -p 503 -t h write 13
+                val=$(($RANDOM % 100))
+                echo ${val} | modmaster -p 503 -t h write 14
+                val=$(($RANDOM % 100))
+                echo ${val} | modmaster -p 503 -t h write 15
+                val=$(($RANDOM % 100))
+                echo ${val} | modmaster -p 503 -t h write 16
+                val=$(($RANDOM % 100))
+                echo ${val} | modmaster -p 503 -t h write 17
+                val=$(($RANDOM % 100))
+                echo ${val} | modmaster -p 503 -t h write 18
+                val=$(($RANDOM % 100))
+                echo ${val} | modmaster -p 503 -t h write 19
+                val=$(($RANDOM % 100))
+                echo ${val} | modmaster -p 503 -t h write 20
+                Holding_flg=0
+                echo Holding_out, flg=${Holding_flg}
+        fi
+
+        echo set=${set}
+        if [ $set -gt 3001 -a $set -lt 3010 ]; then
+                if [ $flg -ne 1 ]; then
+                        echo "1" | modmaster -p 503 -t c write 1
+                        echo "0" | modmaster -p 503 -t c write 2
+                        echo "1" | modmaster -p 503 -t c write 3
+                        echo "0" | modmaster -p 503 -t c write 4
+                        echo "1" | modmaster -p 503 -t c write 5
+                        echo "0" | modmaster -p 503 -t c write 6
+                        echo "1" | modmaster -p 503 -t c write 7
+                        echo "0" | modmaster -p 503 -t c write 8
+                        echo "1" | modmaster -p 503 -t c write 9
+                        echo "0" | modmaster -p 503 -t c write 10
+                        coil_flg=1
+                        echo coil_In, flg=${coil_flg}
+                fi
+        else
+                echo "0" | modmaster -p 503 -t c write 1
+                echo "1" | modmaster -p 503 -t c write 2
+                echo "0" | modmaster -p 503 -t c write 3
+                echo "1" | modmaster -p 503 -t c write 4
+                echo "0" | modmaster -p 503 -t c write 5
+                echo "1" | modmaster -p 503 -t c write 6
+                echo "0" | modmaster -p 503 -t c write 7
+                echo "1" | modmaster -p 503 -t c write 8
+                echo "0" | modmaster -p 503 -t c write 9
+                echo "1" | modmaster -p 503 -t c write 10
+                coil_flg=0
+                echo coil_out, flg=${coil_flg}
+
+        fi
+
+        logger -p daemon.debug [read-float16_rb24h] : `LANG=C date`
+        sleep 1
+done

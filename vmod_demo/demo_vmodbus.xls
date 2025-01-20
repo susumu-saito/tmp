@@ -1,0 +1,3569 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9645</WindowHeight>
+  <WindowWidth>27375</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>450</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="游ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m493313160">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="Microsoft Sans Serif" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m493315032">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="Microsoft Sans Serif" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Microsoft Sans Serif" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Microsoft Sans Serif" x:Family="Swiss"/>
+   <Interior ss:Color="#FFFF63" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Microsoft Sans Serif" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Microsoft Sans Serif" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat ss:Format="Yes/No"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Microsoft Sans Serif" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat ss:Format="Standard"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Microsoft Sans Serif" x:Family="Swiss"/>
+   <Interior ss:Color="#FFFF63" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="#,##0"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Microsoft Sans Serif" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat ss:Format="0"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Microsoft Sans Serif" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat ss:Format="#,##0"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="Microsoft Sans Serif" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Microsoft Sans Serif" x:Family="Swiss"/>
+   <Interior ss:Color="#FFFF63" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Standard"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="Events_Severity"
+   ss:RefersTo="=ModbusRTU_Validations!R1C10:R3C10"/>
+  <NamedRange ss:Name="Events_TriggerType"
+   ss:RefersTo="=ModbusRTU_Validations!R1C9:R8C9"/>
+  <NamedRange ss:Name="ModbusFields_DataType"
+   ss:RefersTo="=ModbusRTU_Validations!R1C3:R18C3"/>
+  <NamedRange ss:Name="ModbusFields_Region"
+   ss:RefersTo="=ModbusRTU_Validations!R1C2:R4C2"/>
+  <NamedRange ss:Name="UnitFields_DataType"
+   ss:RefersTo="=ModbusRTU_Validations!R1C8:R18C8"/>
+  <NamedRange ss:Name="UnitFields_FieldType"
+   ss:RefersTo="=ModbusRTU_Validations!R1C5:R27C5"/>
+  <NamedRange ss:Name="UnitFields_Format"
+   ss:RefersTo="=ModbusRTU_Validations!R1C6:R2C6"/>
+  <NamedRange ss:Name="UnitFields_Region"
+   ss:RefersTo="=ModbusRTU_Validations!R1C7:R1C7"/>
+  <NamedRange ss:Name="UnitIos_IoType"
+   ss:RefersTo="=ModbusRTU_Validations!R1C4:R8C4"/>
+  <NamedRange ss:Name="UnitsTypes_UnitType"
+   ss:RefersTo="=ModbusRTU_Validations!R1C11:R17C11"/>
+  <NamedRange ss:Name="WebTabs_Status"
+   ss:RefersTo="=ModbusRTU_Validations!R1C12:R3C12"/>
+  <NamedRange ss:Name="WebTabs_TabPageType"
+   ss:RefersTo="=ModbusRTU_Validations!R1C13:R8C13"/>
+  <NamedRange ss:Name="YesNo" ss:RefersTo="=ModbusRTU_Validations!R1C1:R2C1"/>
+ </Names>
+ <Worksheet ss:Name="Modbus Fields" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="26" ss:ExpandedRowCount="47" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54">
+   <Column ss:StyleID="s63" ss:Width="99.75" ss:Caption="FieldName@System.String@False"/>
+   <Column ss:StyleID="s64" ss:Width="99.75" ss:Span="1" ss:Caption="OpcName@System.String@True"/>
+   <Column ss:Index="4" ss:StyleID="s65" ss:Width="99.75" ss:Caption="ReadOnly@System.Boolean@True"/>
+   <Column ss:StyleID="s66" ss:Width="99.75" ss:Span="1" ss:Caption="MinValue@System.Decimal@True"/>
+   <Column ss:Index="7" ss:StyleID="s63" ss:Width="99.75" ss:Caption="Region@System.String@False"/>
+   <Column ss:StyleID="s67" ss:Width="99.75" ss:Caption="Address@System.Int32@False"/>
+   <Column ss:StyleID="s63" ss:Width="99.75" ss:Caption="DataType@System.String@False"/>
+   <Column ss:StyleID="s68" ss:Width="99.75" ss:Caption="StrLength@System.Byte@True"/>
+   <Column ss:StyleID="s65" ss:Width="99.75" ss:Span="1" ss:Caption="LSWF@System.Boolean@True"/>
+   <Column ss:Index="13" ss:StyleID="s69" ss:Width="99.75" ss:Caption="BitOffset@System.Int32@True"/>
+   <Column ss:StyleID="s66" ss:Width="99.75" ss:Span="3" ss:Caption="RawRangeMin@System.Double@True"/>
+   <Column ss:Index="18" ss:StyleID="s69" ss:Width="99.75" ss:Span="1" ss:Caption="DecimalScaling@System.Int32@True"/>
+   <Column ss:Index="20" ss:StyleID="s66" ss:Width="99.75" ss:Caption="ValueBelow@System.Double@True"/>
+   <Column ss:StyleID="s69" ss:Width="99.75" ss:Caption="ConvertedValueBelow@System.Int32@True"/>
+   <Column ss:StyleID="s66" ss:Width="99.75" ss:Caption="ValueAbove@System.Double@True"/>
+   <Column ss:StyleID="s69" ss:Width="99.75" ss:Span="1" ss:Caption="ConvertedValueAbove@System.Int32@True"/>
+   <Column ss:Index="25" ss:StyleID="s65" ss:Width="99.75" ss:Caption="CalculateDeltaAvg@System.Boolean@True"/>
+   <Column ss:StyleID="s64" ss:Width="99.75" ss:Caption="DefaultValue@System.String@True"/>
+   <Row ss:Hidden="1" ss:Caption="ColumnsProps">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FieldName@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">OpcName@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Description@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ReadOnly@System.Boolean@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MinValue@System.Decimal@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MaxValue@System.Decimal@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Region@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Address@System.Int32@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DataType@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">StrLength@System.Byte@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">LSWF@System.Boolean@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Signed@System.Boolean@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BitOffset@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RawRangeMin@System.Double@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RawRangeMax@System.Double@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EngUnitsRangeMin@System.Double@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EngUnitsRangeMax@System.Double@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DecimalScaling@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rounding@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ValueBelow@System.Double@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ConvertedValueBelow@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ValueAbove@System.Double@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ConvertedValueAbove@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DeltaInterval@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">CalculateDeltaAvg@System.Boolean@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DefaultValue@System.String@True</Data></Cell>
+   </Row>
+   <Row ss:Height="13.5">
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Height="14.25" ss:Caption="Header">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Field Name</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Unique name alph-numeric value&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Opc Name</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Unique name alph-numeric value&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Description</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Customer description of the field&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Read Only</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Whether the field is writeble&#10;(default = No)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Min Value</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Allowed minimum value to be set from the web&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Max Value</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Allowed maximum value to be set from the web&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Region</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Modbus Region (select from list)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Address</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>The Modbus address.&#10;Valid values : 1 to 65535&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Data Type</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>The modbus data type&#10;(select from list)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Str Length</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">L S W F</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Yes = LSWF&#10;No =  MSWF&#10;(default = MSWF)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Signed</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Whether the dataType is signed&#10;:(default = No)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bit Offset</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>The offset of the bit in the register&#10;(Only when data type is a bit register)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Raw Range Min</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Minimun input range for linear scaling&#10;Valid values are:-10000000-&gt;10000000&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Raw Range Max</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Maximum input range for linear scaling&#10;Valid values are:-10000000-&gt;10000000&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Eng Units Range Min</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Minimun output range for linear scaling&#10;Valid values are:-10000000-&gt;10000000&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Eng Units Range Max</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Maximum output range for linear scaling&#10;Valid values are:-10000000-&gt;10000000&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Decimal Scaling</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>The decimal point position if need to convert integer to float with fixed floating point&#10;Valid values are: -10-&gt;10&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Rounding</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Valid values are:0-&gt;6&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Value Below</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Min valid value&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Converted Value Below</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Value to display if Min valid value has been reached&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Value Above</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Max valid value&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Converted Value Above</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Value to display if Max valid value has been reached&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Delta Interval</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Interval in seconds for Calculating Delta(if 0 then calculate normal value)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Calculate Delta Avg</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>if true then will calculate Average Delta(ignored if DeltaInterval is 0)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Default Value</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B></ss:Data></Comment></Cell>
+   </Row>
+   <Row ss:Height="13.5">
+    <Cell><Data ss:Type="String">DegitalOutputs_01</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Digital Outputs (Coils)</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_02</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Digital Outputs (Coils)</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_03</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Digital Outputs (Coils)</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_04</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Digital Outputs (Coils)</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_05</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Digital Outputs (Coils)</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_06</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Digital Outputs (Coils)</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_07</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Digital Outputs (Coils)</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_08</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Digital Outputs (Coils)</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_09</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Digital Outputs (Coils)</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_10</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Digital Outputs (Coils)</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NSX電圧</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Input Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CPU温度①</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Input Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CPU温度②</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Input Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CPU温度③</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Input Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_11</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Input Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_12</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Input Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_13</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Input Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_14</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Input Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_15</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Input Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_16</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Input Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_17</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Input Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_18</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Input Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_19</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Input Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_20</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Input Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_02</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_03</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_04</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_05</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_06</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_07</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_08</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_09</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_10</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_11</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_12</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_13</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_14</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_15</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_16</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_17</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_18</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_19</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_20</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_01</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Holding Registers</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Short</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="19"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="25"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>3</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>18</ActiveCol>
+     <RangeSelection>R14C19:R17C19</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>True</ProtectObjects>
+   <ProtectScenarios>True</ProtectScenarios>
+   <AllowSizeCols/>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C2:R65536C2</Range>
+   <Type>TextLength</Type>
+   <Min>1</Min>
+   <Max>50</Max>
+   <ErrorMessage>Must be a alpha-numeric text (max length 50)</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C3:R65536C3</Range>
+   <Type>TextLength</Type>
+   <Min>1</Min>
+   <Max>250</Max>
+   <ErrorMessage>Must be a alpha-numeric text (max length 250)</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C4:R65536C4,R4C11:R65536C11,R4C12:R65536C12,R4C25:R65536C25</Range>
+   <Type>List</Type>
+   <Value>YesNo</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C5:R65536C5</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Min Value must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C6:R65536C6</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Max Value must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C7:R65536C7</Range>
+   <Type>List</Type>
+   <Value>ModbusFields_Region</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C8:R65536C8</Range>
+   <Type>Whole</Type>
+   <Min>1</Min>
+   <Max>65535</Max>
+   <ErrorMessage>Address must be an number between 1 to 65535</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C9:R65536C9</Range>
+   <Type>List</Type>
+   <Value>ModbusFields_DataType</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C10:R65536C10</Range>
+   <Type>Whole</Type>
+   <Min>0</Min>
+   <Max>255</Max>
+   <ErrorMessage>Str Length must be an number between 0 to 255</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C13:R65536C13</Range>
+   <Type>Whole</Type>
+   <Min>0</Min>
+   <Max>31</Max>
+   <ErrorMessage>Bit Offset must be an number between 0 to 31</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C14:R65536C14</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Raw Range Min must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C15:R65536C15</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Raw Range Max must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C16:R65536C16</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Eng Units Range Min must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C17:R65536C17</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Eng Units Range Max must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C18:R65536C18</Range>
+   <Type>Whole</Type>
+   <Min>0</Min>
+   <Max>10</Max>
+   <ErrorMessage>Decimal Scaling must be an number between 0 to 10</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C19:R65536C19</Range>
+   <Type>Whole</Type>
+   <Min>0</Min>
+   <Max>6</Max>
+   <ErrorMessage>Rounding must be an number between 0 to 6</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C20:R65536C20</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Value Below must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C21:R65536C21</Range>
+   <Type>Whole</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Converted Value Below must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C22:R65536C22</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Value Above must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C23:R65536C23</Range>
+   <Type>Whole</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Converted Value Above must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C24:R65536C24</Range>
+   <Type>Whole</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Delta Interval must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="Unit Ios" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="23" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54">
+   <Column ss:StyleID="s63" ss:Width="99.75" ss:Caption="FieldName@System.String@False"/>
+   <Column ss:StyleID="s64" ss:Width="99.75" ss:Span="1" ss:Caption="OpcName@System.String@True"/>
+   <Column ss:Index="4" ss:StyleID="s65" ss:Width="99.75" ss:Caption="ReadOnly@System.Boolean@True"/>
+   <Column ss:StyleID="s66" ss:Width="99.75" ss:Span="1" ss:Caption="MinValue@System.Decimal@True"/>
+   <Column ss:Index="7" ss:StyleID="s63" ss:Width="99.75" ss:Caption="IoType@System.String@False"/>
+   <Column ss:StyleID="s67" ss:Width="99.75" ss:Caption="IoNumber@System.Int32@False"/>
+   <Column ss:StyleID="s65" ss:Width="99.75" ss:Caption="Toggle@System.Boolean@True"/>
+   <Column ss:StyleID="s69" ss:Width="99.75" ss:Span="1" ss:Caption="ToggleInterval@System.Int32@True"/>
+   <Column ss:Index="12" ss:StyleID="s66" ss:Width="99.75" ss:Span="3" ss:Caption="RawRangeMin@System.Double@True"/>
+   <Column ss:Index="16" ss:StyleID="s69" ss:Width="99.75" ss:Span="1" ss:Caption="DecimalScaling@System.Int32@True"/>
+   <Column ss:Index="18" ss:StyleID="s66" ss:Width="99.75" ss:Caption="ValueBelow@System.Double@True"/>
+   <Column ss:StyleID="s69" ss:Width="99.75" ss:Caption="ConvertedValueBelow@System.Int32@True"/>
+   <Column ss:StyleID="s66" ss:Width="99.75" ss:Caption="ValueAbove@System.Double@True"/>
+   <Column ss:StyleID="s69" ss:Width="99.75" ss:Span="1" ss:Caption="ConvertedValueAbove@System.Int32@True"/>
+   <Column ss:Index="23" ss:StyleID="s65" ss:Width="99.75" ss:Caption="CalculateDeltaAvg@System.Boolean@True"/>
+   <Row ss:Hidden="1" ss:Caption="ColumnsProps">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FieldName@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">OpcName@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Description@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ReadOnly@System.Boolean@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MinValue@System.Decimal@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MaxValue@System.Decimal@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">IoType@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">IoNumber@System.Int32@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Toggle@System.Boolean@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ToggleInterval@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">InitialValue@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RawRangeMin@System.Double@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RawRangeMax@System.Double@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EngUnitsRangeMin@System.Double@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EngUnitsRangeMax@System.Double@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DecimalScaling@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Rounding@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ValueBelow@System.Double@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ConvertedValueBelow@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ValueAbove@System.Double@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ConvertedValueAbove@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DeltaInterval@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">CalculateDeltaAvg@System.Boolean@True</Data></Cell>
+   </Row>
+   <Row ss:Height="13.5">
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Height="14.25" ss:Caption="Header">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Field Name</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Unique name alph-numeric value&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Opc Name</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Unique name alph-numeric value&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Description</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Customer description of the field&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Read Only</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Whether the field is writeble&#10;(default = No)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Min Value</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Allowed minimum value to be set from the web&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Max Value</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Allowed maximum value to be set from the web&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Io Type</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>The wireless unit field type&#10;(select from list)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Io Number</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>The IO number:&#10;Valid values :&#10;Analog Input:  1 to 2&#10;Analog Output : 1&#10;Digital Input : 1 to 8&#10;Digital Output: 1 to 2The Modbus address.&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Toggle</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Whether the digital output will be toggled&#10;used only in digital output IO&#10;(default = No)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Toggle Interval</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Toggle interval (in miliseconds)&#10;used only in digital output IO&#10;(default = 0)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Initial Value</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>The initial value to set on the output IO&#10;used only in digital output IO&#10;(default = 0)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Raw Range Min</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Minimun input range for linear scaling&#10;Valid values are:-10000000-&gt;10000000&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Raw Range Max</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Maximum input range for linear scaling&#10;Valid values are:-10000000-&gt;10000000&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Eng Units Range Min</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Minimun output range for linear scaling&#10;Valid values are:-10000000-&gt;10000000&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Eng Units Range Max</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Maximum output range for linear scaling&#10;Valid values are:-10000000-&gt;10000000&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Decimal Scaling</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>The decimal point position if need to convert integer to float with fixed floating point&#10;Valid values are: -10-&gt;10&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Rounding</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Valid values are:0-&gt;6&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Value Below</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Min valid value&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Converted Value Below</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Value to display if Min valid value has been reached&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Value Above</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Max valid value&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Converted Value Above</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Value to display if Max valid value has been reached&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Delta Interval</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Interval in seconds for Calculating Delta(if 0 then calculate normal value)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Calculate Delta Avg</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>if true then will calculate Average Delta(ignored if DeltaInterval is 0)&#10;</ss:Data></Comment></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>3</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <RangeSelection>R4</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>True</ProtectObjects>
+   <ProtectScenarios>True</ProtectScenarios>
+   <AllowSizeCols/>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C2:R65536C2</Range>
+   <Type>TextLength</Type>
+   <Min>1</Min>
+   <Max>50</Max>
+   <ErrorMessage>Must be a alpha-numeric text (max length 50)</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C3:R65536C3</Range>
+   <Type>TextLength</Type>
+   <Min>1</Min>
+   <Max>250</Max>
+   <ErrorMessage>Must be a alpha-numeric text (max length 250)</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C4:R65536C4,R4C9:R65536C9,R4C23:R65536C23</Range>
+   <Type>List</Type>
+   <Value>YesNo</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C5:R65536C5</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Min Value must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C6:R65536C6</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Max Value must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C7:R65536C7</Range>
+   <Type>List</Type>
+   <Value>UnitIos_IoType</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C8:R65536C8</Range>
+   <Type>Whole</Type>
+   <Min>1</Min>
+   <Max>8</Max>
+   <ErrorMessage>Io Number must be an number between 1 to 8</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C10:R65536C10</Range>
+   <Type>Whole</Type>
+   <Min>0</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Toggle Interval must be an number between 0 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C11:R65536C11</Range>
+   <Type>Whole</Type>
+   <Min>0</Min>
+   <Max>1</Max>
+   <ErrorMessage>Initial Value must be an number between 0 to 1</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C12:R65536C12</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Raw Range Min must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C13:R65536C13</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Raw Range Max must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C14:R65536C14</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Eng Units Range Min must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C15:R65536C15</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Eng Units Range Max must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C16:R65536C16</Range>
+   <Type>Whole</Type>
+   <Min>0</Min>
+   <Max>10</Max>
+   <ErrorMessage>Decimal Scaling must be an number between 0 to 10</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C17:R65536C17</Range>
+   <Type>Whole</Type>
+   <Min>0</Min>
+   <Max>6</Max>
+   <ErrorMessage>Rounding must be an number between 0 to 6</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C18:R65536C18</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Value Below must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C19:R65536C19</Range>
+   <Type>Whole</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Converted Value Below must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C20:R65536C20</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Value Above must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C21:R65536C21</Range>
+   <Type>Whole</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Converted Value Above must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C22:R65536C22</Range>
+   <Type>Whole</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Delta Interval must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="Unit Fields" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54">
+   <Column ss:StyleID="s63" ss:Width="99.75" ss:Caption="FieldName@System.String@False"/>
+   <Column ss:StyleID="s64" ss:Width="99.75" ss:Span="1" ss:Caption="OpcName@System.String@True"/>
+   <Column ss:Index="4" ss:StyleID="s65" ss:Width="99.75" ss:Caption="ReadOnly@System.Boolean@True"/>
+   <Column ss:StyleID="s66" ss:Width="99.75" ss:Span="1" ss:Caption="MinValue@System.Decimal@True"/>
+   <Column ss:Index="7" ss:StyleID="s63" ss:Width="99.75" ss:Span="1" ss:Caption="FieldType@System.String@False"/>
+   <Column ss:Index="9" ss:StyleID="s64" ss:Width="99.75" ss:Caption="Region@System.String@True"/>
+   <Column ss:StyleID="s69" ss:Width="99.75" ss:Caption="Address@System.Int32@True"/>
+   <Column ss:StyleID="s64" ss:Width="99.75" ss:Caption="DataType@System.String@True"/>
+   <Column ss:StyleID="s65" ss:Width="99.75" ss:Span="1" ss:Caption="LSWF@System.Boolean@True"/>
+   <Column ss:Index="14" ss:StyleID="s64" ss:Width="99.75" ss:Caption="Expression@System.String@True"/>
+   <Row ss:Height="13.5" ss:Hidden="1" ss:Caption="ColumnsProps">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FieldName@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">OpcName@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Description@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ReadOnly@System.Boolean@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MinValue@System.Decimal@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MaxValue@System.Decimal@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FieldType@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Format@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Region@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Address@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DataType@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">LSWF@System.Boolean@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Signed@System.Boolean@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Expression@System.String@True</Data></Cell>
+   </Row>
+   <Row ss:Height="14.25">
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="m493313160"><Data ss:Type="String">External Watch Dog Register</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Height="14.25" ss:Caption="Header">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Field Name</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Unique name alph-numeric value&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Opc Name</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Unique name alph-numeric value&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Description</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Customer description of the field&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Read Only</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Whether the field is writeble&#10;(default = No)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Min Value</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Allowed minimum value to be set from the web&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Max Value</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Allowed maximum value to be set from the web&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Field Type</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>The wireless unit predefined field&#10;(select from list)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Format</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Format Time&#10;(select from list)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Region</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Modbus Region (select from list)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Address</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>The Modbus address.&#10;Valid values : 1 to 65535&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Data Type</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>The modbus data type&#10;(select from list)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">L S W F</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Yes = LSWF&#10;No =  MSWF&#10;(default = MSWF)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Signed</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Whether the dataType is signed&#10;:(default = No)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Expression</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B></ss:Data></Comment></Cell>
+   </Row>
+   <Row ss:Height="13.5">
+    <Cell><Data ss:Type="String">Controller Communication Status</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Controller Communication Status</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>3</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <RangeSelection>R4</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>True</ProtectObjects>
+   <ProtectScenarios>True</ProtectScenarios>
+   <AllowSizeCols/>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C2:R65536C2</Range>
+   <Type>TextLength</Type>
+   <Min>1</Min>
+   <Max>50</Max>
+   <ErrorMessage>Must be a alpha-numeric text (max length 50)</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C3:R65536C3</Range>
+   <Type>TextLength</Type>
+   <Min>1</Min>
+   <Max>250</Max>
+   <ErrorMessage>Must be a alpha-numeric text (max length 250)</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C4:R65536C4,R4C12:R65536C12,R4C13:R65536C13</Range>
+   <Type>List</Type>
+   <Value>YesNo</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C5:R65536C5</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Min Value must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C6:R65536C6</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Max Value must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C7:R65536C7</Range>
+   <Type>List</Type>
+   <Value>UnitFields_FieldType</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C8:R65536C8</Range>
+   <Type>List</Type>
+   <Value>UnitFields_Format</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C9:R65536C9</Range>
+   <Type>List</Type>
+   <Value>UnitFields_Region</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C10:R65536C10</Range>
+   <Type>Whole</Type>
+   <Min>1</Min>
+   <Max>65535</Max>
+   <ErrorMessage>Address must be an number between 1 to 65535</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C11:R65536C11</Range>
+   <Type>List</Type>
+   <Value>UnitFields_DataType</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="Fields Textual Values" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="5" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54">
+   <Column ss:StyleID="s63" ss:Width="99.75" ss:Caption="FieldName@System.String@False"/>
+   <Column ss:StyleID="s67" ss:Width="99.75" ss:Caption="Value@System.Int32@False"/>
+   <Column ss:StyleID="s63" ss:Width="99.75" ss:Caption="Display@System.String@False"/>
+   <Row ss:Hidden="1" ss:Caption="ColumnsProps">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FieldName@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Value@System.Int32@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Display@System.String@False</Data></Cell>
+   </Row>
+   <Row ss:Height="13.5">
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Height="14.25" ss:Caption="Header">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Field Name</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Exact name as defined in 'Fields' sheet&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Value</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Value of field (Integer)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Display</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Display name of the field value&#10;</ss:Data></Comment></Cell>
+   </Row>
+   <Row ss:Height="13.5">
+    <Cell><Data ss:Type="String">Controller Communication Status</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Error</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Controller Communication Status</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Ok</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>3</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <RangeSelection>R4</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>True</ProtectObjects>
+   <ProtectScenarios>True</ProtectScenarios>
+   <AllowSizeCols/>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C2:R65536C2</Range>
+   <Type>Whole</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Value must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C3:R65536C3</Range>
+   <Type>TextLength</Type>
+   <Min>1</Min>
+   <Max>50</Max>
+   <ErrorMessage>Must be a alpha-numeric text (max length 50)</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="Events" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="16" ss:ExpandedRowCount="49" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54">
+   <Column ss:StyleID="s63" ss:Width="99.75" ss:Span="2" ss:Caption="FieldName@System.String@False"/>
+   <Column ss:Index="4" ss:StyleID="s64" ss:Width="99.75" ss:Caption="Severity@System.String@True"/>
+   <Column ss:StyleID="s65" ss:Width="99.75" ss:Caption="HistoryEnable@System.Boolean@True"/>
+   <Column ss:StyleID="s64" ss:Width="99.75" ss:Caption="Description@System.String@True"/>
+   <Column ss:StyleID="s66" ss:Width="99.75" ss:Caption="TriggerValue1@System.Double@True"/>
+   <Column ss:StyleID="s65" ss:Width="99.75" ss:Caption="ExcludeTriggerValue1@System.Boolean@True"/>
+   <Column ss:StyleID="s66" ss:Width="99.75" ss:Caption="TriggerValue2@System.Double@True"/>
+   <Column ss:StyleID="s65" ss:Width="99.75" ss:Caption="ExcludeTriggerValue2@System.Boolean@True"/>
+   <Column ss:StyleID="s64" ss:Width="99.75" ss:Caption="Message@System.String@True"/>
+   <Column ss:StyleID="s65" ss:Width="99.75" ss:Caption="Enable@System.Boolean@True"/>
+   <Column ss:StyleID="s69" ss:Width="99.75" ss:Span="3" ss:Caption="BetweenTwoEvents@System.Int32@True"/>
+   <Row ss:Height="13.5" ss:Hidden="1" ss:Caption="ColumnsProps">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FieldName@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EventName@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">TriggerType@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Severity@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">HistoryEnable@System.Boolean@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Description@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">TriggerValue1@System.Double@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ExcludeTriggerValue1@System.Boolean@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">TriggerValue2@System.Double@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ExcludeTriggerValue2@System.Boolean@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Message@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Enable@System.Boolean@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BetweenTwoEvents@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ForRepeatingEvents@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ForOnValidity@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ForOffValidity@System.Int32@True</Data></Cell>
+   </Row>
+   <Row ss:Height="14.25">
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:MergeAcross="3" ss:StyleID="m493315032"><Data ss:Type="String">Minimal Time Durations </Data></Cell>
+   </Row>
+   <Row ss:Height="14.25" ss:Caption="Header">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Field Name</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Exact name as defined in 'Fields' sheet&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Event Name</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Unique name alph-numeric value&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Trigger Type</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Event type (select from list)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Severity</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Severity of event&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">History Enable</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>(default = No)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Description</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Customer description of the event&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Trigger Value1</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Value of the first trigger.&#10;(default = 0)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Exclude Trigger Value1</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Trigger Value2</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Value of the second trigger (only for range triggers).&#10;(default = 0)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Exclude Trigger Value2</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Message</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Default message to send when the event has been activated.&#10;Variables in Messages sent from Server:&#10;• %v – will be replaced with value of field on which the event is defined.&#10;If field has TexualValues then the format will be &lt;textvalue&gt;(&lt;numericvalue&gt;)&#10;• %u – will be replaced with unit name.&#10;• %c – will be replaced with controller name.&#10;• %f – will be replaced with field name.&#10;• %e – will be replaced with event name.&#10;• %t – will be replaced with event time.&#10;(This is the server's local time)&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Enable</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>(default = Yes)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Between Two Events</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Minimum time duration (in seconds) between two activations of the event&#10;(default = 0)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">For Repeating Events</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Time (in minuts) between resending message in case event is still active. (used for critical events).&#10;(default = 0)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">For On Validity</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Minimun time for the event to be active befor sendng a message&#10;(default = 0)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">For Off Validity</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Minimum time for the event to be not active (after an activation has been detected) befor sending an off notification.&#10;(default = 0)&#10;</ss:Data></Comment></Cell>
+   </Row>
+   <Row ss:Height="13.5">
+    <Cell><Data ss:Type="String">DegitalOutputs_01</Data></Cell>
+    <Cell><Data ss:Type="String">DegitalOutputs_01 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_02</Data></Cell>
+    <Cell><Data ss:Type="String">DegitalOutputs_02 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_03</Data></Cell>
+    <Cell><Data ss:Type="String">DegitalOutputs_03 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_04</Data></Cell>
+    <Cell><Data ss:Type="String">DegitalOutputs_04 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_05</Data></Cell>
+    <Cell><Data ss:Type="String">DegitalOutputs_05 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_06</Data></Cell>
+    <Cell><Data ss:Type="String">DegitalOutputs_06 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_07</Data></Cell>
+    <Cell><Data ss:Type="String">DegitalOutputs_07 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_08</Data></Cell>
+    <Cell><Data ss:Type="String">DegitalOutputs_08 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_09</Data></Cell>
+    <Cell><Data ss:Type="String">DegitalOutputs_09 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DegitalOutputs_10</Data></Cell>
+    <Cell><Data ss:Type="String">DegitalOutputs_10 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NSX電圧</Data></Cell>
+    <Cell><Data ss:Type="String">NSX電圧 Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CPU温度①</Data></Cell>
+    <Cell><Data ss:Type="String">CPU温度① Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CPU温度②</Data></Cell>
+    <Cell><Data ss:Type="String">CPU温度② Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CPU温度③</Data></Cell>
+    <Cell><Data ss:Type="String">CPU温度③ Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_11</Data></Cell>
+    <Cell><Data ss:Type="String">InputRegisters_11 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_12</Data></Cell>
+    <Cell><Data ss:Type="String">InputRegisters_12 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_13</Data></Cell>
+    <Cell><Data ss:Type="String">InputRegisters_13 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_14</Data></Cell>
+    <Cell><Data ss:Type="String">InputRegisters_14 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_15</Data></Cell>
+    <Cell><Data ss:Type="String">InputRegisters_15 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_16</Data></Cell>
+    <Cell><Data ss:Type="String">InputRegisters_16 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_17</Data></Cell>
+    <Cell><Data ss:Type="String">InputRegisters_17 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_18</Data></Cell>
+    <Cell><Data ss:Type="String">InputRegisters_18 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_19</Data></Cell>
+    <Cell><Data ss:Type="String">InputRegisters_19 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">InputRegisters_20</Data></Cell>
+    <Cell><Data ss:Type="String">InputRegisters_20 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_02</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_02 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_03</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_03 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_04</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_04 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_05</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_05 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_06</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_06 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_07</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_07 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_08</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_08 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_09</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_09 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_10</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_10 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_11</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_11 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_12</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_12 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_13</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_13 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_14</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_14 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_15</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_15 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_16</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_16 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_17</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_17 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_18</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_18 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_19</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_19 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_20</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_20 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Controller Communication Status</Data></Cell>
+    <Cell><Data ss:Type="String">communication error to controller</Data></Cell>
+    <Cell><Data ss:Type="String">Equal</Data></Cell>
+    <Cell><Data ss:Type="String">Error</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">communication error with controller %c</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">30000</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Controller Communication Status</Data></Cell>
+    <Cell><Data ss:Type="String">Controller Communication Status changed</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HoldingRegistars_01</Data></Cell>
+    <Cell><Data ss:Type="String">HoldingRegistars_01 AnyChange</Data></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="15"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>3</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <RangeSelection>R4</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>True</ProtectObjects>
+   <ProtectScenarios>True</ProtectScenarios>
+   <AllowSizeCols/>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C3:R65536C3</Range>
+   <Type>List</Type>
+   <Value>Events_TriggerType</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C4:R65536C4</Range>
+   <Type>List</Type>
+   <Value>Events_Severity</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C5:R65536C5,R4C8:R65536C8,R4C10:R65536C10,R4C12:R65536C12</Range>
+   <Type>List</Type>
+   <Value>YesNo</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C6:R65536C6,R4C11:R65536C11</Range>
+   <Type>TextLength</Type>
+   <Min>1</Min>
+   <Max>250</Max>
+   <ErrorMessage>Must be a alpha-numeric text (max length 250)</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C7:R65536C7</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Trigger Value1 must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C9:R65536C9</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Trigger Value2 must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C13:R65536C13</Range>
+   <Type>Whole</Type>
+   <Min>0</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Between Two Events must be an number between 0 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C14:R65536C14</Range>
+   <Type>Whole</Type>
+   <Min>0</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>For Repeating Events must be an number between 0 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C15:R65536C15</Range>
+   <Type>Whole</Type>
+   <Min>0</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>For On Validity must be an number between 0 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C16:R65536C16</Range>
+   <Type>Whole</Type>
+   <Min>0</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>For Off Validity must be an number between 0 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="Web Pages" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54">
+   <Column ss:StyleID="s63" ss:Width="99.75" ss:Caption="WebPageName@System.String@False"/>
+   <Column ss:StyleID="s69" ss:Width="99.75" ss:Caption="RefreshInterval@System.Int32@True"/>
+   <Column ss:StyleID="s67" ss:Width="99.75" ss:Caption="Index@System.Int32@False"/>
+   <Row ss:Hidden="1" ss:Caption="ColumnsProps">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">WebPageName@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">RefreshInterval@System.Int32@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Index@System.Int32@False</Data></Cell>
+   </Row>
+   <Row ss:Height="13.5">
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Height="14.25" ss:Caption="Header">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Web Page Name</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Refresh Interval</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Auto web page refresh interval (in seconds)&#10;(min value 15)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Index</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B></ss:Data></Comment></Cell>
+   </Row>
+   <Row ss:Height="13.5">
+    <Cell><Data ss:Type="String">demo_vmod</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>3</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <RangeSelection>R4</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>True</ProtectObjects>
+   <ProtectScenarios>True</ProtectScenarios>
+   <AllowSizeCols/>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C1:R65536C1</Range>
+   <Type>TextLength</Type>
+   <Min>1</Min>
+   <Max>250</Max>
+   <ErrorMessage>Must be a alpha-numeric text (max length 250)</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C2:R65536C2</Range>
+   <Type>Whole</Type>
+   <Min>5</Min>
+   <Max>7200</Max>
+   <ErrorMessage>Refresh Interval must be an number between 5 to 7200</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C3:R65536C3</Range>
+   <Type>Whole</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Index must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="Web Fields" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54">
+   <Column ss:StyleID="s63" ss:Width="99.75" ss:Caption="WebPageName@System.String@False"/>
+   <Column ss:StyleID="s67" ss:Width="99.75" ss:Caption="Index@System.Int32@False"/>
+   <Column ss:StyleID="s63" ss:Width="99.75" ss:Caption="Caption@System.String@False"/>
+   <Column ss:StyleID="s65" ss:Width="99.75" ss:Caption="IsTitle@System.Boolean@True"/>
+   <Column ss:StyleID="s64" ss:Width="99.75" ss:Span="1" ss:Caption="FieldName@System.String@True"/>
+   <Column ss:Index="7" ss:StyleID="s65" ss:Width="99.75" ss:Span="1" ss:Caption="ReadOnly@System.Boolean@True"/>
+   <Row ss:Hidden="1" ss:Caption="ColumnsProps">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">WebPageName@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Index@System.Int32@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Caption@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">IsTitle@System.Boolean@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">FieldName@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">EngineeringUnits@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ReadOnly@System.Boolean@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ShowOnlyOnAlarm@System.Boolean@True</Data></Cell>
+   </Row>
+   <Row ss:Height="13.5">
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Height="14.25" ss:Caption="Header">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Web Page Name</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Exact name as defined in 'Web Pages' sheet&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Index</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>The index for the display order&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Caption</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Caption to be used while displaying the field on the web&#10;(default = FieldName)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Is Title</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Whether this web field is only a titel.&#10;if it is a titel - caption must be defined. ('field name',' eng. Units' &amp; 'Show only on alarm' will be ignored).&#10;(default = No)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Field Name</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Exact name as defined in 'Fields' sheet&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Engineering Units</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Enginiring units to be used while displaying the field on the web&#10;(default = null)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Read Only</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Yes/No&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Show Only On Alarm</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B>Whether to display the fields just if alarm has been activated.&#10;(default = No)&#10;</ss:Data></Comment></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>3</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <RangeSelection>R4</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>True</ProtectObjects>
+   <ProtectScenarios>True</ProtectScenarios>
+   <AllowSizeCols/>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C1:R65536C1</Range>
+   <Type>TextLength</Type>
+   <Min>1</Min>
+   <Max>250</Max>
+   <ErrorMessage>Must be a alpha-numeric text (max length 250)</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C2:R65536C2</Range>
+   <Type>Whole</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Index must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C3:R65536C3,R4C5:R65536C5</Range>
+   <Type>TextLength</Type>
+   <Min>1</Min>
+   <Max>50</Max>
+   <ErrorMessage>Must be a alpha-numeric text (max length 50)</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C4:R65536C4,R4C7:R65536C7,R4C8:R65536C8</Range>
+   <Type>List</Type>
+   <Value>YesNo</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C6:R65536C6</Range>
+   <Type>TextLength</Type>
+   <Min>1</Min>
+   <Max>20</Max>
+   <ErrorMessage>Must be a alpha-numeric text (max length 20)</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="Web Field Actions Buttons" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54">
+   <Column ss:StyleID="s63" ss:Width="99.75" ss:Caption="WebPageName@System.String@False"/>
+   <Column ss:StyleID="s67" ss:Width="99.75" ss:Caption="WebFieldIndex@System.Int32@False"/>
+   <Column ss:StyleID="s63" ss:Width="99.75" ss:Span="1" ss:Caption="DisplayAs@System.String@False"/>
+   <Column ss:Index="5" ss:StyleID="s78" ss:Width="99.75" ss:Caption="ActionValue@System.Decimal@False"/>
+   <Row ss:Hidden="1" ss:Caption="ColumnsProps">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">WebPageName@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">WebFieldIndex@System.Int32@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DisplayAs@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ReferenceField@System.String@False</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ActionValue@System.Decimal@False</Data></Cell>
+   </Row>
+   <Row ss:Height="13.5">
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Height="14.25" ss:Caption="Header">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Web Page Name</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Exact WebPage name as defined in 'Web Pages' sheet&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Web Field Index</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Exact index of webField as defined in 'Web Fields' sheet&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Display As</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Display name of the button on the web&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Reference Field</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>The field to perform the action on.&#10;(Exact field name as defined in 'Fields' sheet)&#10;</ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Action Value</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Value to assign to field when button is pressed&#10;</ss:Data></Comment></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>3</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <RangeSelection>R4</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>True</ProtectObjects>
+   <ProtectScenarios>True</ProtectScenarios>
+   <AllowSizeCols/>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C1:R65536C1</Range>
+   <Type>TextLength</Type>
+   <Min>1</Min>
+   <Max>250</Max>
+   <ErrorMessage>Must be a alpha-numeric text (max length 250)</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C2:R65536C2</Range>
+   <Type>Whole</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Web Field Index must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C3:R65536C3</Range>
+   <Type>TextLength</Type>
+   <Min>1</Min>
+   <Max>50</Max>
+   <ErrorMessage>Must be a alpha-numeric text (max length 50)</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C5:R65536C5</Range>
+   <Type>Decimal</Type>
+   <Min>-2147483648</Min>
+   <Max>2147483647</Max>
+   <ErrorMessage>Action Value must be an number between -2147483648 to 2147483647</ErrorMessage>
+   <ErrorTitle>Invalid Input</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="Units Types" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54">
+   <Column ss:StyleID="s63" ss:Width="99.75" ss:Caption="UnitType@System.String@False"/>
+   <Row ss:Hidden="1" ss:Caption="ColumnsProps">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">UnitType@System.String@False</Data></Cell>
+   </Row>
+   <Row ss:Height="13.5">
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Height="14.25" ss:Caption="Header">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Unit Type</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Required:&#10;</B>Supported units type (select from list)&#10;</ss:Data></Comment></Cell>
+   </Row>
+   <Row ss:Height="13.5">
+    <Cell><Data ss:Type="String">BConnectRoosterNSX</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>3</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <RangeSelection>R4</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>True</ProtectObjects>
+   <ProtectScenarios>True</ProtectScenarios>
+   <AllowSizeCols/>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C1:R65536C1</Range>
+   <Type>List</Type>
+   <Value>UnitsTypes_UnitType</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="Web Tabs" ss:Protected="1">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54">
+   <Column ss:StyleID="s64" ss:Width="99.75" ss:Span="5" ss:Caption="Caption@System.String@True"/>
+   <Row ss:Hidden="1" ss:Caption="ColumnsProps">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Caption@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">GroupCaption@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Status@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">TabPageType@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DisallowedUserRoles@System.String@True</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">HMI@System.String@True</Data></Cell>
+   </Row>
+   <Row ss:Height="13.5">
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Height="14.25" ss:Caption="Header">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Caption</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Group Caption</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Status</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Tab Page Type</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Disallowed User Roles</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">H M I</Data><Comment
+      ss:Author="BacSoft"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Optional:&#10;</B></ss:Data></Comment></Cell>
+   </Row>
+   <Row ss:Height="13.5">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Enabled</Data></Cell>
+    <Cell><Data ss:Type="String">Fields</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Hidden</Data></Cell>
+    <Cell><Data ss:Type="String">Map</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Hidden</Data></Cell>
+    <Cell><Data ss:Type="String">Events</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Enabled</Data></Cell>
+    <Cell><Data ss:Type="String">Reports</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>3</SplitHorizontal>
+   <TopRowBottomPane>3</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <RangeSelection>R4</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>True</ProtectObjects>
+   <ProtectScenarios>True</ProtectScenarios>
+   <AllowSizeCols/>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C3:R65536C3</Range>
+   <Type>List</Type>
+   <Value>WebTabs_Status</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C4:R65536C4</Range>
+   <Type>List</Type>
+   <Value>WebTabs_TabPageType</Value>
+   <ErrorMessage>Please select value from the list</ErrorMessage>
+   <ErrorTitle>Invalid value</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="ModbusRTU_Validations">
+  <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="27" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54">
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">Yes</Data><NamedCell ss:Name="YesNo"/></Cell>
+    <Cell><Data ss:Type="String">Digital Outputs (Coils)</Data><NamedCell
+      ss:Name="ModbusFields_Region"/></Cell>
+    <Cell><Data ss:Type="String">Short</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String">Analog Voltage Input</Data><NamedCell
+      ss:Name="UnitIos_IoType"/></Cell>
+    <Cell><Data ss:Type="String">Network Signal Strength</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String">Normal</Data><NamedCell
+      ss:Name="UnitFields_Format"/></Cell>
+    <Cell><Data ss:Type="String">Holding Registers</Data><NamedCell
+      ss:Name="UnitFields_Region"/></Cell>
+    <Cell><Data ss:Type="String">Short</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String">Any Change</Data><NamedCell
+      ss:Name="Events_TriggerType"/></Cell>
+    <Cell><Data ss:Type="String">Normal</Data><NamedCell ss:Name="Events_Severity"/></Cell>
+    <Cell><Data ss:Type="String">Advantech ECU</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String">Enabled</Data><NamedCell ss:Name="WebTabs_Status"/></Cell>
+    <Cell><Data ss:Type="String">None</Data><NamedCell
+      ss:Name="WebTabs_TabPageType"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String">No</Data><NamedCell ss:Name="YesNo"/></Cell>
+    <Cell><Data ss:Type="String">Digital Inputs</Data><NamedCell
+      ss:Name="ModbusFields_Region"/></Cell>
+    <Cell><Data ss:Type="String">Long</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String">Analog Current Input</Data><NamedCell
+      ss:Name="UnitIos_IoType"/></Cell>
+    <Cell><Data ss:Type="String">GPRS Network State</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String">Minutes From Start Of Day</Data><NamedCell
+      ss:Name="UnitFields_Format"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Long</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String">Upper Limit</Data><NamedCell
+      ss:Name="Events_TriggerType"/></Cell>
+    <Cell><Data ss:Type="String">Warning</Data><NamedCell ss:Name="Events_Severity"/></Cell>
+    <Cell><Data ss:Type="String">Advantech UNO</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String">Disabled</Data><NamedCell ss:Name="WebTabs_Status"/></Cell>
+    <Cell><Data ss:Type="String">Hmi</Data><NamedCell ss:Name="WebTabs_TabPageType"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Input Registers</Data><NamedCell
+      ss:Name="ModbusFields_Region"/></Cell>
+    <Cell><Data ss:Type="String">Register Bit</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String">Analog Voltage Output</Data><NamedCell
+      ss:Name="UnitIos_IoType"/></Cell>
+    <Cell><Data ss:Type="String">Controller Communication Status</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Register Bit</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String">Lower Limit</Data><NamedCell
+      ss:Name="Events_TriggerType"/></Cell>
+    <Cell><Data ss:Type="String">Error</Data><NamedCell ss:Name="Events_Severity"/></Cell>
+    <Cell><Data ss:Type="String">BConnect M</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String">Hidden</Data><NamedCell ss:Name="WebTabs_Status"/></Cell>
+    <Cell><Data ss:Type="String">Fields</Data><NamedCell
+      ss:Name="WebTabs_TabPageType"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Holding Registers</Data><NamedCell
+      ss:Name="ModbusFields_Region"/></Cell>
+    <Cell><Data ss:Type="String">Long Register Bit</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String">Analog Current Output</Data><NamedCell
+      ss:Name="UnitIos_IoType"/></Cell>
+    <Cell><Data ss:Type="String">Unit Connected</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Long Register Bit</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String">Equal</Data><NamedCell
+      ss:Name="Events_TriggerType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">BConnect Plus V2</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Events</Data><NamedCell
+      ss:Name="WebTabs_TabPageType"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">bit</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String">Digital Input</Data><NamedCell
+      ss:Name="UnitIos_IoType"/></Cell>
+    <Cell><Data ss:Type="String">External Watch Dog</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">bit</Data><NamedCell ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String">Not Equal</Data><NamedCell
+      ss:Name="Events_TriggerType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">BConnect Plus V3.2</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Reports</Data><NamedCell
+      ss:Name="WebTabs_TabPageType"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">IEEE short</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String">Digital Output</Data><NamedCell
+      ss:Name="UnitIos_IoType"/></Cell>
+    <Cell><Data ss:Type="String">Unit Last Communication</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">IEEE short</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String">Timer(minutes)</Data><NamedCell
+      ss:Name="Events_TriggerType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">BConnectCP</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Map</Data><NamedCell ss:Name="WebTabs_TabPageType"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">IEEE long</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String">Counter</Data><NamedCell ss:Name="UnitIos_IoType"/></Cell>
+    <Cell><Data ss:Type="String">Entered Modem Mode</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">IEEE long</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String">In Range</Data><NamedCell
+      ss:Name="Events_TriggerType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">BConnectExpress</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Level</Data><NamedCell
+      ss:Name="WebTabs_TabPageType"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Short BCD</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String">PT100</Data><NamedCell ss:Name="UnitIos_IoType"/></Cell>
+    <Cell><Data ss:Type="String">Static Longitude</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Short BCD</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String">Not In Range</Data><NamedCell
+      ss:Name="Events_TriggerType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">BConnectEZ</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">MultiTab</Data><NamedCell
+      ss:Name="WebTabs_TabPageType"/></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Long BCD</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Static Latitude</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Long BCD</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">BConnectPlus</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Short BCD ASCII</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Longitude</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Short BCD ASCII</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">BConnectRoosterGX</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Long BCD ASCII</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Latitude</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Long BCD ASCII</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">BConnectRoosterNSX</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Time</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Unit Reconnections</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Time</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">EHS6</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Time(Minutes)</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Reset Reason</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Time(Minutes)</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Internal Unit</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DateTime</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Module Temperature</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">DateTime</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">PCUnit</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">String_ASC</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Time From Last Communications(Hours)</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">String_ASC</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Solid</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">String_ASC_HL</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Unit IP</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">String_ASC_HL</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">sysWORXX CTR</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">String_ASC_LH</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Calc Field</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">String_ASC_LH</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">TC65</Data><NamedCell
+      ss:Name="UnitsTypes_UnitType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">String_UC16</Data><NamedCell
+      ss:Name="ModbusFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Virtual Field</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">String_UC16</Data><NamedCell
+      ss:Name="UnitFields_DataType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">TH Sampling Interval</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">TH Queue Size</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Movement Sensor</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">VCC</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Battery Voltage</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">VOut Current</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">VOut Fuse</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Text Virtual Field</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">File Upload Status</Data><NamedCell
+      ss:Name="UnitFields_FieldType"/></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <TopRowVisible>27</TopRowVisible>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

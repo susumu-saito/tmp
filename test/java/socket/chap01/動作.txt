@@ -1,0 +1,196 @@
+TCPサーバ/クライアントを作る
+開発環境について
+この記事では、開発言語としてJava7を使用します。
+それなりにユーザ層が厚く、処理系が無料で提供されている、 ということでJavaを選んだだけですので、 他の言語が得意な方は各自読み替えていただいてもよいかと思います。
+OSも何でもかまいませんが、私はWindows Vistaを使用しています (2007年に購入したLet's Noteです。いい加減買い換えろって?)。
+
+TCPサーバ/クライアントを作る
+Webサーバとブラウザは通常TCP/IPで通信を行いますので、 Webサーバを作る前に、まずはTCPのサーバとクライアントを作ってみます。
+JavaでのTCPサーバ/クライアントのサンプルソースは Google検索でもすればいくらでも見つかりますが、 ひとまずここでは以下のようなプログラムを書いてみました。
+
+まずはサーバです(Server01.java)。
+import java.io.*;
+import java.net.*;
+ 
+public class Server01 {
+    public static void main(String[] argv) throws Exception {
+        try (ServerSocket server = new ServerSocket(8001);
+             FileOutputStream fos = new FileOutputStream("server_recv.txt");
+             FileInputStream fis = new FileInputStream("server_send.txt")) {
+            System.out.println("クライアントからの接続を待ちます。");
+            Socket socket = server.accept();
+            System.out.println("クライアント接続。");
+ 
+            int ch;
+            // クライアントから受け取った内容をserver_recv.txtに出力
+            InputStream input = socket.getInputStream();
+            // クライアントは、終了のマークとして0を送付してくる
+            while ((ch = input.read()) != 0) {
+                fos.write(ch);
+            }
+            // server_send.txtの内容をクライアントに送付
+            OutputStream output = socket.getOutputStream();
+            while ((ch = fis.read()) != -1) {
+                output.write(ch);
+            }
+            socket.close();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+}
+
+
+クライアントのソースはこちら(Client01.java)。
+import java.io.*;
+import java.net.*;
+  
+public class Client01 {
+    public static void main(String[] args) throws Exception {
+        try (Socket socket = new Socket("localhost", 8001);
+             FileInputStream fis = new FileInputStream("client_send.txt");
+             FileOutputStream fos = new FileOutputStream("client_recv.txt")) {
+             
+            int ch;
+            // client_send.txtの内容をサーバに送信
+            OutputStream output = socket.getOutputStream();
+            while ((ch = fis.read()) != -1) {
+                output.write(ch);
+            }
+            // 終了を示すため、ゼロを送信
+            output.write(0);
+            // サーバからの返信をclient_recv.txtに出力
+            InputStream input = socket.getInputStream();
+            while ((ch = input.read()) != -1) {
+                fos.write(ch);
+            }
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+}
+
+サーバはまず8001番ポート(空いているポート番号なら何でもよいですが、 8001番はたいてい空いていると思います ※1)を待ち受けるためにServerSocketクラスの インスタンスを生成し、accept()メソッドによりクライアントからの接続を待ちます (サーバのプログラムの実行は、accept()でいったんブロックされます)。
+クライアントは、localhost(自マシン)の8001番のポートを対象に Socketを生成します。これによりサーバ側のプログラムも、 accept()メソッドを抜けて、戻り値としてSocketを取得します。 以後は、それぞれのSocketからgetInputStream(), getOutputStream()で取得した ストリームにより双方向のデータ通信が可能になるわけです。
+ソケットって何? ポート番号って何? という人は、 適当にGoogleなりで調べてください(投げやり)。 ただ、特に詳細を知らなくても、ここでは、サーバとクライアントの間に 双方向のデータ通信が可能な伝送路が作られて、その両端がソケットである、 ということだけ理解していれば十分かと思います。
+もちろん、接続先としてlocalhostではなく別のホスト名を指定すれば、 他PCとの通信も可能です。
+
+上のプログラムでは、まずクライアントから「client_send.txt」ファイルの 内容をサーバに送付します(動作確認前に、 テキストファイルで用意しておいてください)。 そして、終了のマークとして0を送付します。 これは、TCPの規則でもHTTPの規則でもなんでもなく、 このサーバとクライアントの間の取り決めです。 テキストファイルなら0は含みませんからこのようにしています (ここで、クライアントのoutputをclose()すると、 ソケット自体が閉じてしまうのでサーバからの返信ができません)。
+サーバでは、クライアントから受け取ったデータを、 「server_recv.txt」というファイルに保存します。 その後、サーバ側の「server_send.txt」ファイル(これも事前に用意してください) をクライアントに送り、 クライアントはそれを「client_recv.txt」という名前で保存します。
+
+よって、コマンドプロンプトをふたつ起動し、まずサーバを立ち上げ、 次にクライアントを立ち上げて、 client_send.txtと同内容のserver_recv.txt、 またserver_send.txtと同内容のclient_recv.txtができていれば成功です。
+
+サーバ側：
+C:\maebashi\test\javasocket\chap01>java Server01
+クライアントからの接続を待ちます。
+クライアント接続。
+クライアント側：
+
+C:\maebashi\test\javasocket\chap01>java Client01
+TCPサーバをブラウザで叩く
+ここで、上で作ったTCPサーバ(Server01)を、Webブラウザから叩いてみます。
+
+まずServer01を起動し、その状態で、ブラウザから 以下のURLにアクセスしてみてください。
+http://localhost:8001/index.html
+接続が成功してServer01が「クライアント接続」を表示したら、 ちょっと待ってから、Ctrl-C等でServer01を停止してください (先にブラウザを閉じてしまうと、ソケットが閉じられて、 Server01は入力終了の-1に対するチェックを入れていないので 無限ループに入ります……ひどい手抜きですがw)。
+
+Server01はクライアントから受け取った内容をserver_recv.txtに出力しますから、 このファイルの中身を見れば、 WebブラウザがWebサーバに何を送っているのかがわかります。
+私がFirefox22.0で接続したところ、以下の内容となりました(左端の行番号は 説明用につけたものです)。
+
+  1: GET /index.html HTTP/1.1
+  2: Host: localhost:8001
+  3: User-Agent: Mozilla/5.0 (Windows NT 6.0; rv:22.0) Gecko/20100101 Firefox/22.0
+  4: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  5: Accept-Language: ja,en-us;q=0.7,en;q=0.3
+  6: Accept-Encoding: gzip, deflate
+  7: Connection: keep-alive
+  8: 
+――これが、HTTPリクエストです。
+
+HTTPのうち1行目の「GET」で始まる行を リクエストラインと呼びます。 2行目から7行目までがリクエストヘッダです。
+
+見てわかるとおり、リクエストラインからリクエストヘッダまではテキスト形式です。 また、server_recv.txtはWindowsのメモ帳で開けます。 よって改行コードはCRLFであることがわかります(私のPCが WindowsだからCRLFであるわけではなく、HTTPの規格上、 CRLFでなければいけません)。
+
+1行目冒頭を見ると、「GET」と書いてあります。 このリクエストがHTTPにおける「GETメソッド」であることを示しています。
+
+その続きに「/index.html」とありますから、このリクエストは Webサーバに対し「ルートフォルダのindex.htmlをよこせ」と要求しているわけです。
+
+最後の8行目は空行です。HTTPでは、空行でヘッダの終わりを示します。 ヘッダというからにはその続きにボディがあることもありますが、 GETメソッドの場合はボディは付きません。
+
+2～7行目についてはここでは特に説明しません。必要に応じて、 RFC を参照してください(投げやり)。 ただ、2行目のHostヘッダは見ればわかるでしょうし、 3行目のUser-Agentは、「ああ、あれか」と思う人も多いのではないでしょうか。
+
+TCPクライアントでWebサーバを叩く
+ここまでの検証で、ブラウザ(私の場合はFirefox)が Webサーバにどのようなリクエストを送っているのかはわかりました。 ただ、ここでやりたいことは「Webサーバを作る」ことです。 Webサーバはこのリクエストに対し、どのように返送すればよいのでしょうか。
+
+さっきは、ブラウザの挙動を確認するために、 ブラウザからServer01に対しリクエストを投げました。
+
+そのリクエストに対しWebサーバがどう対応するかを確認するためには、 さきほどブラウザが投げていたHTTPリクエストを、手近の本物のWebサーバに対し、 Client01でもって投げればよい、ということになります。やってみましょう。
+
+手近にWebサーバがない人は、Apacheでも導入してください。 Windowsの場合、Apacheの公式サイトから配布されているサーバは やけにバージョンが古く(2.2)、どうもXPまでしか想定されていないように見えます。 しかもインストーラで導入するとデフォルトでC:\Program Files以下に入るので、 Vista以降のOSだと変な苦労をしそうです。 私は、以下から2.4.6のバイナリ(httpd-2.4.6-win32.zip)を入手しました。
+
+http://www.apachelounge.com/download/
+
+これを展開して得られるApahce24フォルダをC:\直下に配置して、 C:\Apache24\bin\httpd.exeを実行することで、Apacheを起動できます。 詳細はzipに含まれるReadMe.txtを参照してください。
+
+ブラウザから「http://localhost/index.html」を参照して、 「It works!」という(知っている人にはおなじみの)画面が出れば、 Apacheのインストールには成功しています。
+
+さて、Apacheが起動した状態で、Client01を実行するとします。
+
+まず、先ほどブラウザからServer01を叩いたときの server_recv.txtを、client_send.txtにコピーします。 これにより、Client01が、ブラウザと同じリクエストを サーバに投げるようになります。
+
+そして、Client01.javaのソースを修正し、 接続先のポート番号を80(通常のWebサーバのデフォルトのポート) に変更します。 別のマシンのWebサーバを叩くのであれば、"localhost" のところも適宜変更します。
+
+?
+5
+6
+public static void main(String[] args) throws Exception {
+    try (Socket socket = new Socket("localhost", 80); //←80に修正
+また、Client01は、Server01に対し送信の終了を示すために0を送りますが、 Apacheを相手にするならこれは不要ですので、コメントアウトします。
+
+?
+16
+17
+// 終了を示すため、ゼロを送信
+// output.write(0);
+上記のように修正したClient01.javaでWebサーバを叩くと、 それに対する応答がclient_recv.txtに出力されます。 私のところでは以下のようになりました(左端の行番号は例によって説明用です)。
+
+  1: HTTP/1.1 200 OK
+  2: Date: Tue, 30 Jul 2013 17:47:09 GMT
+  3: Server: Apache/2.4.6 (Win32)
+  4: Last-Modified: Mon, 11 Jun 2007 11:53:14 GMT
+  5: ETag: "2e-432a0069dbe80"
+  6: Accept-Ranges: bytes
+  7: Content-Length: 46
+  8: Keep-Alive: timeout=5, max=100
+  9: Connection: Keep-Alive
+ 10: Content-Type: text/html
+ 11: 
+ 12: <html><body><h1>It works!</h1></body></html>
+これがHTTPレスポンスです。
+
+1行目がステータスライン、 2行目から10行目までがレスポンスヘッダです。 リクエストヘッダがそうであったように、 レスポンスヘッダも空行(11行目)で終了します。
+
+その後の12行目がレスポンスボディです。 Apacheのindex.htmlである「It works!」を表示するためのHTMLが 格納されているのがわかります。 なお、ここでレスポンスボディが1行しかないのは、 元のindex.htmlが1行しかなかったためで、 複数行あれば当然複数行が帰ります。
+
+ステータスライン(1行目)に出ている「200」が HTTPステータスコードです。 200というステータスコードは「成功」を意味します。
+
+ステータスコードの一覧は、たとえば Wikipediaのページを参照してください。
+
+次は、いよいよWebサーバを作ります。
+
+Apache入れるの面倒なんですけど
+こんな実験のためだけに自分のマシンにApache入れるのめんどくさいし、 Webサーバなんて世界中に腐るほどあるんだから、 実験なら外部のWebサーバを叩いてみればよいのでは? と思う人もいるかもしれません。
+
+正しいです。が、かえって混乱するケースもあるのではないかと思います。
+
+確かに、上記の手順において"localhost"の部分を google.comなりyahoo.co.jpなりに書き換えれば、 あなたのPCがプロキシ経由でInternetにつながっているのでない限り (会社とかだとたいていプロキシ経由でしょうが)、 GoogleやYahooのサーバを叩くことはできます。
+
+でも、Client01でgoogle.comやyahoo.co.jpにアクセスしても、 GoogleやYahooのトップページを取得することはできません。 これらのページはリダイレクトという ステータスコード(301とか302)を返し、リクエストを別のページに誘導します。 Client01はそれに対応していません。
+
+あるいは私のWebサイトkmaebashi.comのindex.html を取得してみるというのはどうでしょうか。 kmaebashi.comは、リダイレクトで飛ばすようなことはしていませんが、 上記のとおりの手順でHTMLを取得しようとすると、 kmaebashi.comのトップページとは全然違うHTMLが返ってきます。 これは、kmaebashi.comには専用のIPアドレスがひとつ割り当てられているわけではなく、 HTTP1.1のバーチャルホストの機能により、 ひとつのIPアドレスをたくさんのドメインで共有しているためです。
+
+Client01の実行前に、client_send.txtの「Host: localhost:8001」の行を 「Host: kmaebashi.com:80」のように書き換えれば動作します( ※2。 つまりバーチャルホストの機能はHostリクエストヘッダの記述を見て ドメインを見分けているわけです。
+
+※1　ここで8001を使っているのは、 私が子どもの頃に遊んでいたコンピュータの名前に由来し…… ってどうでもいいですね。はい。
+※2　そういえばkmaebsahi.com以下のページは、 どこかのタイミングで、前ページがPHPを経由して表示されるように なってしまったことを思い出しました。 そのため、ちょっと変なレスポンスが来ます。
+次のページ | ひとつ上のページに戻る | トップページに戻る
