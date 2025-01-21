@@ -1,0 +1,7 @@
+﻿Radiator Compatibility List
+ 	120mm	140mm	180mm	240mm	280mm	360mm	360mm	420mm	480mm	540mm
+Front	*	*	*	*	*	*	*	*	*	*
+Top	*	*	*	*	*	 	 	 	 	 
+Rear	*	 	 	 	 	 	 	 	 	 
+Bottom	 	 	 	 	 	 	 	 	 	 
+Side	*	*	 	*	*	 	 	 	 	 
